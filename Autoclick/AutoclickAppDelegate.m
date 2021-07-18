@@ -220,7 +220,7 @@
         
         // Rate
         NSInteger selectedRate = [rateSelector intValue];
-        NSInteger selectedRateUnit = ([rateUnitSelector indexOfSelectedItem]==0)?1000:60000;
+        NSInteger selectedRateUnit = ([rateUnitSelector indexOfSelectedItem]==0)?1000:85000;
         
         NSInteger rate = (NSInteger)(selectedRateUnit / selectedRate); // a click every 'rate' (in ms)
         
